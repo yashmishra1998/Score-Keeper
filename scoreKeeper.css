@@ -1,0 +1,88 @@
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, lightblue, lightgreen);
+    color: #2E3133;
+}
+div#contain{
+    text-align: center;
+    width: 100%;
+}
+div#p1,#p2 {
+    font-size: 7vh;
+    width: 45%;
+    display: inline-block;
+}
+div#p1 {
+    text-align: right;
+}
+div#p2 {
+    text-align: left;
+}
+p {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    word-spacing: 4px;
+}
+span#sp1,#sp2 {
+    font-size: 7vh;
+    opacity: 0.75;
+}
+p {
+    font-size: 4vh;
+}
+span #playingTo {
+    font-weight: 900;
+}
+input#pt1,#pt2 {
+    font-size: 5vh;
+    font-weight: 900;
+    height: 9vh;
+    border: 0;
+    background: white;
+    color: #2E3133;
+    margin-top: -2.3vh;
+    z-index: 0;
+    text-align: center;
+}
+input#pt1,#pt2:focus {
+    outline: 0;
+}
+fieldset {
+    width: fit-content;
+    padding: 0;
+    display: inline-block;
+    box-shadow: 4px 5px 4px #aaa;
+    border: 2px solid #aaa;
+}
+legend {
+    font-size: 7vh;
+    text-shadow: 2px 2px 2px #f1f1f1;
+    color: #bbb;
+}
+#reset {
+    background: white;
+    font-size: 5vh;
+    font-weight: 600;
+    width: 12vh;
+    box-shadow: 4px 5px 4px #aaa;
+    border: 2px solid #aaa;
+    color: #2E3133;
+    padding-top: 6px;
+}
+#reset:focus {
+    outline: 0;
+}

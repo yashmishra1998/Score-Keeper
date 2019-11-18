@@ -7,6 +7,9 @@
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Opera and Firefox */
   }
+.hidden {
+    display: none;
+}
 body {
     margin: 0;
     padding: 0;
@@ -57,6 +60,7 @@ input#pt1,#pt2 {
     margin-top: -2.3vh;
     z-index: 0;
     text-align: center;
+    padding: 0 3.5vh;
 }
 input#pt1,#pt2:focus {
     outline: 0;
@@ -85,4 +89,12 @@ legend {
 }
 #reset:focus {
     outline: 0;
+}
+#start {
+    font-size: 5vh;
+    background: white;
+    color: #2E3133;
+    border: 2px solid #aaa;
+    box-shadow: 4px 5px 4px #aaa;
+    
 }

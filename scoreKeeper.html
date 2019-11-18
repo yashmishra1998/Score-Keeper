@@ -17,27 +17,30 @@
             <span id="sp1">0</span> : <span id="sp2">0</span>
         </h1>
         </div>
-        <div>
-            <p>Playing to : <span id="playingTo">6</span></p>
-        <form>
+            <p><span>Playing to</span> <span style="justify-content: center;">:</span> <span id="playingTo">1</span> <span>Points</span></p>
+            <p id = "result" class = "hidden"></p>
+            <div>
+            <input id="setLimit" type="range" min="0" max="20" value="1" style="width: 40%;background-color: black;"><br><br>
+            <br>
+            <div>
+                <input id="start" type="button" value="START">
             </div>
-            <input name="setLimit" type="range" min="0" max="20" style="width: 40%;background-color: black;"><br><br>
-            <br>
-        
-            <fieldset>
-                <legend align = "right">+</legend>
-                <input type="button" value="  1  " id="pt1">
-            </fieldset>
-            &emsp;&emsp;<span style="font-size: 9vh;">|</span>&emsp;&emsp;
-            <fieldset>
-                <legend align = "right">+</legend>
-                <input type="button" value="  1  " id="pt1">
-            </fieldset>
-            <br>
-            <br>
-            <br>
-            <input type="button" value="&#8634;" id="reset">
-        </form>
+            <div class="hidden" id="afterStart">
+                <fieldset>
+                    <legend align = "right">+</legend>
+                    <input type="button" value="1" id="pt1">
+                </fieldset>
+                &emsp;&emsp;<span style="font-size: 9vh;">|</span>&emsp;&emsp;
+                <fieldset>
+                    <legend align = "right">+</legend>
+                    <input type="button" value="1" id="pt2">
+                </fieldset>
+                <br>
+                <br>
+                <br>
+                <input type="button" value="&#8634;" id="reset">
+            </div>
+            </div>
     </div>
     
 
